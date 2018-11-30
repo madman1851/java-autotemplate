@@ -1,0 +1,322 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 2,
+            "value": "#  Scenario: Smoke test 1"
+          },
+          {
+            "line": 3,
+            "value": "#    Given I can connect to server"
+          },
+          {
+            "line": 4,
+            "value": "#    When I start process"
+          },
+          {
+            "line": 5,
+            "value": "#    Then I files are created"
+          }
+        ],
+        "line": 7,
+        "name": "IPMRStest",
+        "description": "",
+        "id": "old-tests;ipmrstest",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104088739,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "All connections to server are established",
+            "match": {
+              "location": "Test.all_connections_to_server_are_established()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3030149,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"\" job is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 1
+                }
+              ],
+              "location": "Test.job_is_present(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66559,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I run the \"\" job",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                }
+              ],
+              "location": "Test.i_run_the_job(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22187,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Results are present",
+            "match": {
+              "location": "Test.results_are_present()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "KOMDAVtest",
+        "description": "",
+        "id": "old-tests;komdavtest",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 203944,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "All connections to server are established",
+            "match": {
+              "location": "Test.all_connections_to_server_are_established()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70826,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "\"\" job is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 1
+                }
+              ],
+              "location": "Test.job_is_present(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67839,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I run the \"\" job",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                }
+              ],
+              "location": "Test.i_run_the_job(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37120,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Results are present",
+            "match": {
+              "location": "Test.results_are_present()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "JSONSend",
+        "description": "",
+        "id": "old-tests;jsonsend",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 135252,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "All connections to server are established",
+            "match": {
+              "location": "Test.all_connections_to_server_are_established()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71252,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "\"\" job is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 1
+                }
+              ],
+              "location": "Test.job_is_present(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67839,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I run the \"\" job",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                }
+              ],
+              "location": "Test.i_run_the_job(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29013,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Results are present",
+            "match": {
+              "location": "Test.results_are_present()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 28,
+            "value": "#Different scenario - needs new test steps"
+          }
+        ],
+        "line": 29,
+        "name": "csvtoexcel",
+        "description": "",
+        "id": "old-tests;csvtoexcel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 159145,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "All connections to server are established",
+            "match": {
+              "location": "Test.all_connections_to_server_are_established()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "\"\" database is connected",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "\"\" job is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 1
+                }
+              ],
+              "location": "Test.job_is_present(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I run the \"\" job",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                }
+              ],
+              "location": "Test.i_run_the_job(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "Results are present",
+            "match": {
+              "location": "Test.results_are_present()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Old tests",
+    "description": "",
+    "id": "old-tests",
+    "keyword": "Feature",
+    "uri": "src/test/java/Cukes/Tests.feature"
+  }
+]
