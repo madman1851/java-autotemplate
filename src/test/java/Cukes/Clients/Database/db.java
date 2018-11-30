@@ -95,4 +95,18 @@ public class db {
             return;
         }
     }
+
+    public void disconnectIt2()
+    {
+        try {
+            connection.close();
+            System.out.println("DB Connection closed");
+        }
+        catch (Exception e)
+        {
+            System.out.println("Error!");
+            e.printStackTrace();
+            return;
+        }
+    }
 }
