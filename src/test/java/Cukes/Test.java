@@ -16,7 +16,7 @@ public class Test {
     connection_unix conn;
     @Autowired
     db dbase;
-    @Value("${db.vomsmaster1.user}")
+    @Value("${db.vomsmaster1}")
     String dbUser1;
     @Value("${db.vomsmaster1.pass}")
     String dbPass1;
