@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="834bd3b4-ea29-48f5-b571-75a088e77c1e" name="Default" comment="Removed testing functions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Cukes/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Cukes/Handler.java" afterDir="false" />
-    </list>
+    <list default="true" id="834bd3b4-ea29-48f5-b571-75a088e77c1e" name="Default" comment="Removed testing functions" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
