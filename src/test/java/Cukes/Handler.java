@@ -10,7 +10,7 @@ import org.springframework.test.context.ContextConfiguration;
 @ContextConfiguration(classes = SpringConfigurator.class)
 @CucumberOptions(
         features = {"src\\test\\java\\Cukes\\Tests.feature"},
-        format = {/*"pretty",*/"html:target/reports","json:target/cucumber.json"},
+        format = {"pretty","html:target/reports","json:target/cucumber.json"},
         glue = {"Cukes"}
 
 )
